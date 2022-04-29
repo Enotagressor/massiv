@@ -67,8 +67,6 @@ public class Main {
       for (int n = 0; n < mas.length; n++) {
           if (mas[n] % 2 != 0) {
               mas[n] = mas[n] + 1;
-          } else {
-              mas[n] = mas[n];
           }
           System.out.print(mas[n]);
           if (n < mas.length - 1) {
